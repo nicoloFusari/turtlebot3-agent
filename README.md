@@ -1,3 +1,4 @@
+
 # TurtleBot3 Agent
 
 An agent you give commands to in natural language, which drives a TurtleBot3 Burger around the house, looks for objects and people, and reports on what it finds.
@@ -80,3 +81,10 @@ Viewpoint names matter: the agent uses them to figure out where to search (e.g. 
 ## Notes on Nav2
 
 With this robot and a home Wi-Fi network some changes to the Nav2 parameters (`burger.yaml`) were needed, which are not in this repository.
+
+
+Watch the burger in action:
+
+
+https://github.com/user-attachments/assets/79da4d72-2fcb-4fd0-8090-fc37ab166b32
+
