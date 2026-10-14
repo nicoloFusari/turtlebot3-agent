@@ -88,3 +88,6 @@ Watch the burger in action:
 
 https://github.com/user-attachments/assets/79da4d72-2fcb-4fd0-8090-fc37ab166b32
 
+## Known limitations: 
+Object detection is not active while the robot is moving toward a goal (this feature is coming soon), and face recognition does not yet work on rotated heads (this can be fixed with data augmentation).
+
