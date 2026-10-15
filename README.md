@@ -39,14 +39,7 @@ Other behaviors:
 
 Runs on CPU. On the PC used for development YOLOE analyzes about 3–4 frames per second at 640 px, face recognition about 25.
 
-
-
-### 1. Agent identity and limits: `costituzione.md`
-
-The agent reads it at startup and adds it to its instructions, and **without this file it does not start**. It is excluded from the repository because it contains personal information. A minimal example:
-
-
-### 2. Map and places: `maps/`, `places.yaml`
+### Map 
 
 `maps/` contains the Nav2 map. `places.yaml` gives names to points on the map: for each room a pose, some viewpoints and the connections between rooms.
 
@@ -77,10 +70,6 @@ Viewpoint names matter: the agent uses them to figure out where to search (e.g. 
 | `memory.py` | Memory of faces and objects, with the commands to manage it |
 | `places.yaml` | Rooms, viewpoints and connections |
 | `maps/` | Nav2 map |
-
-## Notes on Nav2
-
-With this robot and a home Wi-Fi network some changes to the Nav2 parameters (`burger.yaml`) were needed, which are not in this repository.
 
 
 Watch the burger in action:
